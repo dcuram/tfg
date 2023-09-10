@@ -1,0 +1,53 @@
+
+.titulo{
+  margin-top: 3%;
+  text-align: center;
+}
+
+.csv-file-chooser-section{
+  margin: 1%;
+  width: 30%;
+  text-align: center;
+  margin-left: 35%;
+  border-radius: 0%;
+}
+
+.file-selection{
+  margin: 3%;
+}
+
+.back {
+  background-color: rgb(144, 144, 216);
+  padding: 6%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 20px;
+
+}
+
+.button {
+  margin: 3%;
+  padding-top: 22px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.side {
+  display:inline-block;
+}
+
+.text {
+  width:60%;
+  margin-right:2%;
+  float: left;
+}
+
+.buttons {
+  //width:100%;
+  float: left;
+}
+
+.clearfix{
+  clear:both
+}

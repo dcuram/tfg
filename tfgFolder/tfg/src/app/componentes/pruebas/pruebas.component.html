@@ -1,0 +1,17 @@
+<!--<apx-chart [series]="chartOptions.series" [chart]="chartOptions.chart" [title]="chartOptions.title"></apx-chart>
+
+<div class=" mt-3 row justify-content-center">
+    <button [routerLink]="'/file-input'">Volver</button>
+</div>-->
+
+<div style="display: block;">
+    <canvas baseChart 
+      [datasets]="barChartData"
+      [labels]="barChartLabels"
+      [options]="barChartOptions"
+      [plugins]="barChartPlugins"
+      [legend]="barChartLegend"
+      [chartType]="barChartType">
+    </canvas>
+  </div>
+  

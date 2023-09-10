@@ -1,0 +1,47 @@
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.titulo{
+    margin-top: 3%;
+    text-align: center;
+  }
+  
+.csv-file-chooser-section{
+    margin: 1%;
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+}
+
+.button {
+    padding-top: 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.output-menu {
+    background-color: rgb(144, 144, 216);
+    padding: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+
+}
+.input-menu {
+    background-color: rgb(221, 208, 86);
+    padding: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+
+}
+.result-menu {
+    background-color: rgb(88, 196, 142);
+    padding: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+
+}

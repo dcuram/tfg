@@ -1,0 +1,67 @@
+
+<div class="titulo">
+  <h1>Implementación de aplicación para comparar ejecuciones
+    de análisis de im´agenes de forma paralela y en
+    serie.</h1>
+</div>
+
+
+<mat-tab-group>
+  <mat-tab label="INPUT">
+
+    <div class="input-menu">
+
+      <h2>Inputs</h2>
+
+      <p>
+          En inputs el usuario tiene la opción de cargar la configuaración y conectar con la máquina remota
+      </p>
+
+      <div class="button">
+        <button [routerLink]="'/input'">Ir a Inputs</button>
+      </div>
+    
+    </div>
+
+  </mat-tab>
+
+
+
+  <mat-tab label="OUTPUT"> 
+    
+    <div class="output-menu">
+
+      <h2>Outputs</h2>
+
+      <p>
+          En outputs el usuario tiene la opción de cargar un documento o una carpeta. La aplicación procesará
+           la información automáticamente y se mostrarán los datos cargados y las gráficas generadas con esa 
+           información.
+      </p>
+
+      <div class="button">
+        <button [routerLink]="'/file-input'">Ir a Outputs</button>
+    </div>
+    
+    </div>
+
+  </mat-tab>
+
+
+
+  <!-- <mat-tab label="RESULTADO"> 
+
+    <div class="result-menu">
+
+      <p>
+          bla bla bla
+      </p>
+
+      <div class="button">
+        <button [routerLink]="'/file-input'">Ir a Resultados</button>
+    </div>
+    
+    </div>
+
+  </mat-tab>-->
+</mat-tab-group>

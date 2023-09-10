@@ -1,0 +1,75 @@
+
+.mensaje{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.container{
+    margin-top: 1%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    //max-width: 600px !important;
+    //max-height: 300px !important;
+    align-items: center;
+    padding: 0;
+
+    border: 1px solid;
+    max-height: 400px !important;
+    overflow: auto;
+    max-width:70%;
+    
+}
+
+.table{
+    display: table;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 0.8;
+    max-height: 300px !important;
+    display: block;
+    overflow: auto;
+    max-width:78%;
+    width:100%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 11%;
+}
+
+.chart-container{
+    margin-top: 1%;
+    margin-left: 10%;
+    text-align: center;
+    width: 80%;
+    height: 30%;
+    align-items: center;
+    border: 1px solid;
+    padding: 0;
+    margin-bottom: 2%;
+
+}
+
+.download{
+    font-size: 18px;
+    font-weight: 800;
+    background-color:whitesmoke;
+    border: 1px solid;
+    transition: all .5s;
+    text-transform: uppercase;
+    padding: 1%;
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+}
+
+.back {
+    //background-color: rgb(144, 144, 216);
+    padding: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+  
+  }
+
+  .p {
+      margin: 2%;
+   }

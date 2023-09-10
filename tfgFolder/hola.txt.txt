@@ -1,0 +1,1 @@
+178.62.254.34,root,clases2022,22,ls -la,/home/dani/,/home/dani/dani.txt,C:/Users/daniel/Desktop/documentacion/dani.txt

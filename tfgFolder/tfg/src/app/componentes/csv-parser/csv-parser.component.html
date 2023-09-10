@@ -1,0 +1,67 @@
+
+<head>
+
+</head>
+
+
+<body>
+
+<!--<div class="titulo">
+    <h1>TFG Daniel del Cura.</h1>
+</div>-->
+
+<div class="back">
+
+<div class="file-selection">
+
+    <div class="side">
+        <div class="text">
+            <p><b>"Choose a file"</b> es la opción deseada para cargar un solo archivo con varios resultados, en el gráfico de líneas veremos 
+            una línea por cada uno de estos resultados</p>
+        </div>
+ 
+        <div class="buttons">
+            <input type="file" id="csvFileUpload" (change)="fileChangeListener($event)" class="inputfile" accept=".csv" />
+            <label for="csvFileUpload">Choose a file</label>
+
+            <div class=" buton">
+                <button [routerLink]="'/lineas'">ver Gráfica de Líneas</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="clearfix"></div>
+
+</div>
+
+<div class="file-selection">
+
+    <div class="side">
+        <div class="text">
+            <p><b>"Choose a folder"</b> es la opción deseada para cargar una carpeta con varios documentos, siendo cada uno de ellos un
+                resultado, en el gráfico de barras veremos una barra vertical por cada uno de estos resultados</p>
+        </div>
+ 
+        <div class="buttons">
+            <input type="file" id="folderUpload" (change)="onFolderSelected($event)" class="inputfile" webkitdirectory multiple />
+            <label for="folderUpload">Choose a folder</label>
+
+            <div class=" buton">
+                <button [routerLink]="'/barras'">ver Gráfica de Barras</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+</div>
+
+
+<div class=" button"> 
+    <button [routerLink]="'/menu'">Volver al menú</button>
+</div>
+
+</div>
+
+</body>

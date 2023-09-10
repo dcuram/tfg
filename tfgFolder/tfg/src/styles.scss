@@ -1,0 +1,132 @@
+/* You can add global styles to this file, and also import other style files */
+/*#grafico{
+    width: 60%!important;
+    align-items: center;
+    margin-left: 19%;
+    margin-top: 5%;
+
+}*/
+
+/*#grafico{
+  width: 60%!important;
+  align-items: center;
+  margin-left: 19%;
+  margin-top: 5%;
+
+}*/
+
+.csv-file-chooser-section {
+  padding: 1%;
+  margin-top: 1px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 1px solid;
+  text-align: center;
+}
+  
+.csv-result-table {
+    margin: 5%;
+    border: 1px solid #73AD21;
+  
+}
+  
+table, th, td {
+    border: 1px solid black;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+  
+label[for="csvFileUpload"] {
+    font-size: 18px;
+    font-weight: 800;
+    color: black;
+    background-color: #c1c9ce;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 15px 40px !important;
+    text-transform: uppercase;
+    width: fit-content;
+    text-align: center;
+  }
+
+label[for="folderUpload"] {
+    font-size: 18px;
+    font-weight: 800;
+    color:  black;
+    background-color: #c1c9ce;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 15px 40px !important;
+    text-transform: uppercase;
+    width: fit-content;
+    text-align: center;
+  }
+
+  label[for="readtxt"] {
+    font-size: 18px;
+    font-weight: 800;
+    color:  black;
+    background-color: #c1c9ce;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 15px 40px !important;
+    text-transform: uppercase;
+    width: fit-content;
+    text-align: center;
+  }
+
+  label[for="launch"] {
+    font-size: 18px;
+    font-weight: 800;
+    color:  black;
+    background-color: #c1c9ce;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 15px 40px !important;
+    text-transform: uppercase;
+    width: fit-content;
+    text-align: center;
+  }
+
+  label[for="download"] {
+    font-size: 18px;
+    font-weight: 800;
+    color:  black;
+    background-color: #c1c9ce;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 15px 40px !important;
+    text-transform: uppercase;
+    width: fit-content;
+    text-align: center;
+  }
+
+.titulo{
+    text-align: center;
+}
+
+.descripcion{
+    margin-left: 5%;  
+}
+
+.archivo{
+    text-align: center;
+}
+
+.input{
+
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

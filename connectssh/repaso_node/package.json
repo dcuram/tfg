@@ -1,0 +1,25 @@
+{
+  "name": "ssh",
+  "version": "1.0.0",
+  "description": "Conexión a ssh un vps",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "ssh",
+    "vps"
+  ],
+  "author": "dc",
+  "license": "",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "node-ssh": "^12.0.4",
+    "nodemon": "^2.0.18",
+    "ssh2-sftp-client": "^9.0.2"
+  }
+}
